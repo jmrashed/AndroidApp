@@ -1,0 +1,61 @@
+body{
+	
+	margin: 0px;
+	padding: 0px;
+}
+.thumbnail{
+margin-top:20px;
+background-color:powderBlue;
+}
+
+.thumbnail img{
+
+	margin-top:50px;
+	width: 50%;
+	height:100%;
+
+}
+.navbar {
+    position: relative;
+    min-height: 100px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+
+#slider{
+
+	padding-top:10px;
+}
+.social-icons{
+	background-color:#000000;
+	padding:20px 0;
+	text-align:center;
+}
+.social-icons i{
+
+	color:#fff;
+	font-size:20px;
+	    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+}
+
+.fa-facebook{
+	background-color:#3a5695;
+}
+.fa-google-plus{
+	background-color:#cd3c2a;
+}
+.fa-linkedin{
+	background-color:#007bb6;
+}
+.fa-twitter{
+	background-color:#5ea6dd;
+}
+.fa-skype{
+	background-color:#00aff0;
+}
+.fa-dribbble{
+	background-color:#03a691;
+}

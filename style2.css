@@ -1,0 +1,97 @@
+/*
+fork
+ http://tympanus.net/Tutorials/TypographyEffects/index5.html
+*/
+body {
+  
+}
+#cont {
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  box-pack: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  text-align: center;
+  width: 100%;
+  padding-top: 60px;
+  background-color: #c0392b;
+}
+#cont p {
+  font-family: 'Alegreya', serif;
+  font-style: italic;
+  font-size: 150px;
+  color: white;
+  position: relative;
+  z-index: 100;
+  color: #ffffff;
+  text-shadow: 0px -1px 3px #555555, 0 4px 3px #6d2018, 2px 25px 5px rgba(0, 0, 0, 0.2), 1px 30px 10px rgba(0, 0, 0, 0.3);
+}
+#cont .a1 {
+  -o-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.1s;
+  -ms-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.1s;
+  -moz-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.1s;
+  -webkit-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.1s;
+}
+#cont .a2 {
+  -o-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.2s;
+  -ms-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.2s;
+  -moz-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.2s;
+  -webkit-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.2s;
+}
+#cont .a3 {
+  -o-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.3s;
+  -ms-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.3s;
+  -moz-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.3s;
+  -webkit-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.3s;
+}
+#cont .a4 {
+  -o-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.4s;
+  -ms-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.4s;
+  -moz-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.4s;
+  -webkit-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.4s;
+}
+#cont .a5 {
+  -o-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.5s;
+  -ms-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.5s;
+  -moz-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.5s;
+  -webkit-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.5s;
+}
+#cont .a6 {
+  -o-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.6s;
+  -ms-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.6s;
+  -moz-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.6s;
+  -webkit-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.6s;
+}
+#cont .a7 {
+  -o-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.7s;
+  -ms-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.7s;
+  -moz-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.7s;
+  -webkit-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.7s;
+}
+#cont .a8 {
+  -o-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.8s;
+  -ms-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.8s;
+  -moz-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.8s;
+  -webkit-animation: animetion 1.3s cubic-bezier(0.645, 0.045, 0.105, 0.995) infinite alternate 0.8s;
+}
+.anime_begin {
+  color: #ffffff;
+  text-shadow: 0px -1px 3px #555555, 0 4px 3px #6d2018, 2px 25px 5px rgba(0, 0, 0, 0.2), 1px 30px 10px rgba(0, 0, 0, 0.3);
+}
+.anime_end {
+  color: #e6e6e6;
+  padding-top: 20px;
+  text-shadow: 0px -1px 3px #555555, 0 4px 3px #6d2018, 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+@-webkit-keyframes animetion {
+  0% {
+    color: #ffffff;
+    text-shadow: 0px -1px 3px #555555, 0 4px 3px #6d2018, 2px 25px 5px rgba(0, 0, 0, 0.2), 1px 30px 10px rgba(0, 0, 0, 0.3);
+  }
+  100% {
+    color: #e6e6e6;
+    padding-top: 20px;
+    text-shadow: 0px -1px 3px #555555, 0 4px 3px #6d2018, 1px 1px 10px rgba(0, 0, 0, 0.2);
+  }
+}
